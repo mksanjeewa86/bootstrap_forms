@@ -1,0 +1,48 @@
+.form-top-right .glyphicon {
+  top: .2em
+}
+
+.form-group:after {
+  content: "";
+  display: block;
+  clear: both
+}
+
+.description-title {
+  font-size: 16px;
+  font-weight: 700
+}
+
+.description-md-title {
+  display: inline-block;
+  background-color: #2196f3;
+  color: #fff;
+  padding: 11px 27px;
+  margin: 5px -30px;
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, .2);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, .2)
+}
+
+label.control-label span.label {
+  position: relative;
+  display: inline-block;
+  top: -2px;
+  margin-left: 4px
+}
+
+.checkboxes {
+  margin-top: -10px
+}
+
+.vdp-datepicker .input-group {
+  width: 100%
+}
+
+.vdp-datepicker .form-control {
+  background-color: #fff;
+  cursor: pointer
+}
+
+.vdp-datepicker .form-control:first-child:last-child {
+  border-radius: 4px
+}

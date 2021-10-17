@@ -1,0 +1,82 @@
+.checkbox input[type=checkbox]:checked:after,
+.checkbox-inline input[type=checkbox]:checked:after,
+input[type=checkbox]:checked:after {
+  background-color: #0D47A1;
+  border-color: #0D47A1;
+}
+
+.checkbox input[type=checkbox]:focus:after,
+.checkbox-inline input[type=checkbox]:focus:after,
+input[type=checkbox]:focus:after {
+  border-color: #0D47A1;
+}
+
+.radio input[type=radio]:checked:after,
+.radio-inline input[type=radio]:checked:after,
+input[type=radio]:checked:after {
+  border-color: #0D47A1;
+}
+
+.radio input[type=radio]:before,
+.radio-inline input[type=radio]:before,
+input[type=radio]:before {
+  background-color: #0D47A1;
+}
+
+.btn-primary {
+  /*color: #fff;*/
+  background-color: #0D47A1;
+  border-color: #0B3F90;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  /*color: #fff;*/
+  background-color: #0B3F90;
+  border-color: #0A3880;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.btn-primary:hover,
+.open>.btn-primary.dropdown-toggle {
+  /*color: #fff;*/
+  background-color: #0B3F90;
+  border-color: #0A3880;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.btn-primary.dropdown-toggle.focus,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover {
+  /*color: #fff;*/
+  background-color: #0B3F90;
+  border-color: #0A3880;
+}
+
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+  background-color: #0D47A1;
+  border-color: #0B3F90;
+}
+
+.btn-primary .badge {
+  color: #0D47A1;
+  background-color: #fff;
+}
+
+.container .description-md-title {
+  background-color: #0D47A1;
+}
